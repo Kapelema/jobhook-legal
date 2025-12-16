@@ -1,10 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="index, follow" />
   <title>Jobhook Legal</title>
+
+  <style>
+    :root {
+      --bg:#0b0f17;
+      --card:#111827;
+      --text:#e5e7eb;
+      --muted:#9ca3af;
+      --primary:#60a5fa;
+      --border:rgba(255,255,255,.12);
+    }
+
+    body {
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: linear-gradient(180deg, var(--bg), #070a10);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 420px;
+      width: 100%;
+      margin: 20px;
+      background: rgba(17,24,39,.9);
+      border:1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px 22px;
+      box-shadow: 0 20px 40px rgba(0,0,0,.45);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      margin: 0 0 22px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .btn {
+      display:block;
+      width:100%;
+      padding:14px 16px;
+      margin-bottom: 12px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      border:1px solid var(--border);
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      transition: all .2s ease;
+    }
+
+    .btn:hover {
+      background: rgba(96,165,250,.15);
+      border-color: rgba(96,165,250,.5);
+    }
+
+    .footer {
+      margin-top: 16px;
+      font-size: 12px;
+      color: var(--muted);
+      border-top:1px solid var(--border);
+      padding-top: 12px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Jobhook Legal Documents</h1>
-  <p>Privacy Policy and Terms of Service will be published here.</p>
+  <div class="container">
+    <h1>Jobhook</h1>
+    <p>Official legal documents for the Jobhook mobile application.</p>
+
+    <a class="btn" href="./privacy-policy.html">
+      🔐 Privacy Policy
+    </a>
+
+    <a class="btn" href="./terms-of-service.html">
+      📄 Terms of Service
+    </a>
+
+    <div class="footer">
+      © Jobhook • Namibia
+    </div>
+  </div>
 </body>
 </html>
